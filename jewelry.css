@@ -1,0 +1,133 @@
+
+body {
+  background: #111;
+  font-family: serif;
+  color: #c1beb8;
+  margin: 30px;
+  padding: 0;
+  font-size: 20px;
+}
+h1{
+color: #8e4f0c;
+font-family: 'Ruthie', cursive;
+font-size: 100px;
+font-weight: normal;
+margin:5px;
+
+}
+h2{
+color: #77b9c6;
+font-family: 'Ruthie', cursive;
+font-weight: normal;
+font-size: 50px;
+margin:15px;
+}
+h3{
+  font-family: cursive;
+  font-size: 30px;
+}
+/*button {
+  font-family:cursive;
+  font-size: 15px;
+  font-weight:bold;
+  color:black;
+  border:1px solid black;
+  line-height:1;
+  text-align: center;
+  outline:0;
+  margin: 10px;
+  padding: 10px;
+  cursor:pointer;
+  display:inline;
+  border-radius: 0%;
+  background:  -webkit-linear-gradient(left bottom,#d9a14a, #8e680f);
+}
+.buttonlink{
+  font-family: cursive;
+  font-size: 15px;
+  color:black;
+  font-weight:bold;
+}
+a{
+color:#d7efe8;
+}
+a:hover  {
+  color:#ffc600;
+}*/
+aside{
+ border:1px solid #333;
+clear:both;
+float:right;
+width: 25%;
+ background: -webkit-linear-gradient(left top,#111, #333);
+ margin-top: 5px;
+ margin-left:  30px;
+ padding: 10px;
+}
+/*ul{
+  padding:0;
+  margin:0;
+}
+nav{
+clear:both;
+float:left;
+margin-right: 30px;
+font-size: 20px;
+}
+.navlink{
+
+  display:block;
+  border:1px solid #333;
+  line-height:1;
+  color:#bbb;
+  text-decoration:none;
+  text-align: center;
+  outline:0;
+  margin: 100px, 0;
+  padding: 10px;
+  cursor:pointer;
+  border-radius: 0%;
+  font-weight:bold;
+  background: -webkit-linear-gradient(left bottom,#222, #555);
+  width:100px;
+  height:40px;
+}
+.navlink:hover{
+color:#6b4e0c;
+}
+.highlight{
+background:#373d3d;
+width:auto;
+}*/
+#thumbnailsDiv{
+
+  /*overflow: auto;
+  white-space: nowrap;*/
+  display: block;
+  width:100px;
+
+
+}
+.thumbnail{
+  width:100px;
+  border-right: 1px #111 solid;
+  border-left: 1px #111 solid;
+  border-top:1px hidden;
+  border-bottom: 1px hidden;
+  margin-right:25px;
+  float:left;
+}
+.thumbnail:hover{
+  cursor:pointer;
+  border: solid 1px #222;
+}
+footer{
+  clear: both;
+}
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
